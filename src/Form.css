@@ -1,0 +1,158 @@
+/* App.css */
+.App {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .form-container h1 {
+    color: #007bff;
+  }
+  
+  .form-group {
+    margin: 10px 0;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Form.css */
+.form-container {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px; /* Aumenta el relleno para hacer el formulario más grande */
+    margin: 20px;
+    width: 400px; /* Aumenta el ancho del formulario */
+    text-align: center;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    padding: 12px; /* Aumenta el tamaño del campo de entrada */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px; /* Aumenta el tamaño del botón */
+    cursor: pointer;
+    font-size: 18px; /* Aumenta el tamaño del texto del botón */
+}
+
+/* App.css */
+.App {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .card h2 {
+    color: #007bff;
+    margin: 0;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  .card .label {
+    font-weight: bold;
+  }
+  
+
+  
+/* Form.css */
+.Modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .Modal-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .image-preview {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    object-fit: cover;
+  }
+  
+  /* Resto de los estilos (se mantienen los estilos anteriores) */
+  
